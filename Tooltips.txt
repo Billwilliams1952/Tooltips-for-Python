@@ -23,7 +23,7 @@
 # 36 : This text here spans three lines. The amount of text is only limited by python
 #      and could be huge. This can go on until a the dollar sign is
 #      found. $
-# 36 : The next tooltip. Use a newline \n to force a newline in the displayed text. $
+# 37 : The next tooltip. Use a newline \n to force a newline in the displayed text. $
 
 # The numbering of the tooltips can be in any order.
 
