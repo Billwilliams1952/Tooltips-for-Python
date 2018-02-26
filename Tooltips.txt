@@ -1,0 +1,47 @@
+
+# This is a Tooltips text file. Feel free to edit this fle to personalize
+# your tooltips for particular controls.
+
+# Copyright 2018 Bill Williams
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# Format is
+# Tooltip ID number : Tooltip text to display $
+#
+# Blank lines are ignored, and any line starting with a '#' is ignored.
+# All whitespace before and after the Tooltip ID Number and text is removed before processing.
+# Text will continue to be appended until the line ends with a dollar sign.
+#e.g.,
+# 35 : This is some tooltip text. $
+# 36 : This text here spans three lines. The amount of text is only limited by python
+#      and could be huge. This can go on until a the dollar sign is
+#      found. $
+# 36 : The next tooltip. Use a newline \n to force a newline in the displayed text. $
+
+# The numbering of the tooltips can be in any order.
+
+100 : This is a tooltip for button 100. $
+101 : This is a tooltip for button 101. $
+102 : This is a tooltip for button 102. $
+103 : This is a tooltip for button 103. $
+104 : This is a tooltip for button 104. $
+
+200 : This is a tooltip for checkbutton 200. $
+201 : This is a tooltip for checkbutton 201. $
+202 : This is a tooltip for checkbutton 202. $
+203 : This is a tooltip for checkbutton 203. $
+204 : This is a tooltip for checkbutton 204. $
+
+2000 : Enable/disable showing the tip number with the tooltip.\n\n
+This is an example of a very long tooltip. The text continues until a
+dollar sign is found.\n\n
+So add a dollar sign now. $
+
+# There is no tooltip number for 9999
