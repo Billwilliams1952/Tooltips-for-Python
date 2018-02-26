@@ -1,6 +1,6 @@
 # Synopsis
 
-A Python module that provides a tooltip interface for widgets in a program. The tootip text for each widget may be read from an external file, passed as a string during ToolTip construction, or dynamically created by using a user-supplied callback function.
+A Python module that provides a tooltip interface for widgets in a program. The tootip text for each widget may be read from an external file, passed as a string during ToolTip construction, or dynamically created by using a user-supplied callback function. Under program control, tooltips may be enabled or disabled, the tip number can be added to the tooltip (useful for debugging), and the delay from the mouse hovering over a widget to when the tooltip is displayed may be modified.
 
 ## Motivation
 
