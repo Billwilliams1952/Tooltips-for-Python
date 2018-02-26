@@ -99,7 +99,12 @@ class TooltipTest ( Frame ):
 		c.grid(row=1,column=0,columnspan=2,pady=(0,5),sticky='W')
 		ToolTip(c,2000)
 
-		ttk.Label(f,text='Tooltip show delay:').grid(row=2,column=0,sticky='W')
+		# You can just pass a text string to the ToolTip
+		l = ttk.Label(f,text='Tooltip show delay:')
+		l.grid(row=2,column=0,sticky='W')
+		ToolTip(l,"Tooltip text for the label 'Tooltip show delay' passed directly" \
+					 " in the ToolTip constructor.")
+
 		# To have the tooltip call a function in your code when it needs
 		# a new tooltip, create the ToolTip and pass a function using
 		# ToolTip(widget,msgFunc=self.CallbackFunctionName)
