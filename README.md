@@ -21,6 +21,8 @@ Download the zip file. Include the file **Tooltip.py** in your project file dire
 
 The file **ExampleTooltips.py** is included which provides specific examples for including tooltips into your application.
 
+![tooltip](https://user-images.githubusercontent.com/3778024/36656513-5bf01ee4-1a8e-11e8-9c6a-19342999e5fe.png)
+
 ## API Reference
 
 The sample program **ExampleTooltips.py** has been developed using Python ver 2.7.13 and Python ver 3.5.3.
